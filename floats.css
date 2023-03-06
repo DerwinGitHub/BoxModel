@@ -11,22 +11,24 @@
 
 .wrapper {
     background-color: blue;
+    /*flex-direction: row-reverse;*/
+    flex-direction: row;
+    display: flex;
 }
 
 .menu{
     background-color: yellow;
-    height: 50px;
+    
     width: 30%;
-    float: left;
-}
+   }
 
 .content {
     background-color: aqua;
-    width: 50%;
-    float: left;
+    width: 70%;
+   
 }
 
 .footer{
     background-color: pink;
-    clear: both;
+    
 }
